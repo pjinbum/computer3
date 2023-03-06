@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  width: 100vw;
+  height: 60vh;
+  background-color: rgb(208, 255, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+article{
+  position: relative;
+  width: 20%;
+  height: 100%;
+  margin: 0 20px;
+  display: flex;
+  
+}
+
+section article:nth-child(1){
+  background-color: #283491;
+}
+section article:nth-child(2){
+  background-color: #f18684;
+}
+section article:nth-child(3){
+  background-color: #6ee2f1;
+}
+
+article:hover{
+  flex-grow: 2;
+  transition: all 400ms ease-in-out;
+}
+
+
+
+article h1{
+  margin-top: 100px;
+  display: none;
+  color: #fff;
+  
+}
+
+article h3{
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  font-size: 20px;
+  color: #fff;
+  
+}
+
+article:hover h1{
+  display: block;
+}
+
+article img{
+  margin-top: 50px;
+}
